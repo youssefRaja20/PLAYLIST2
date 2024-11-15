@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Playlist</title>
+    <link rel="stylesheet" href="playlist2.css">
+    <script src="playlist2.js" defer></script>
+</head>
+<body>
+    <div class="video-container">
+        <video id="videoPlayer" width="100%" height="360" controls>
+            <source src="video4.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="playlist">
+            <ul>
+                <li onclick="changeVideo('video1.mp4')">Video 1      |    opening 1</li>
+                <li onclick="changeVideo('video2.mp4')">Video 2      |    opening 2</li>
+                <li onclick="changeVideo('video3.mp4')">Video 3      |    opening 3</li>
+                <li onclick="changeVideo('video5.mp4')">Video 4      |    opening 4</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
